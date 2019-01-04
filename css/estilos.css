@@ -1,44 +1,54 @@
-﻿/*Versión: 20190103001*/
+﻿/*Versión: 20190103002*/
 footer{
-    background-color: cadetblue;
-    border-radius: 0px 0px 10px 10px;
-    Color: white;
+  background-color: #5b7989;
+  border-radius: 0px 0px 10px 10px;
+  Color: white;
+}
+svg{
+  height: 100%;
+  margin: none;
 }
 h1{
-    margin: 5px 0px 0px 15px;
-    color: white;
-    text-shadow: 3px 3px 3px gray;
+  margin: 5px 0px 0px 15px;
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
 }
 #content_header{ /*Contenedor del encabezado*/
-    height: 50px;
-    background-color: cadetblue;
-    border-radius: 10px 10px 0px 0px;
+  height: 50px;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
 }
 #title{          /*Tirulo*/
-    width: 50%;
-    float: left;
+  margin: none;
+  height: 50%;
+  float: left;
 }
 #menu_bar{           /*Barra de menús*/
-    width: 40%;
-    float: left;
+  width: 40%;
+  float: left;
+}
+#main_image{
+  width: 100%;
 }
 .menu_option{    /*opción en el menú*/
-    border-radius: 5px;
-    text-align: center;
-    color: white;
-    float: left;
-    margin: 10px 16px 10px 15px;
-    height: 20px;
-    padding: 5px;
-    width: 25%;
-    background-color: brown;
-    transition: box-shadow 0.2s, background-color 0.5s;
+  text-decoration:none;
+  text-align: center;
+  color: white;
+  float: left;
+  padding: 15px;
+  width: 25%;
+/*  border-radius: 5px;
+  margin: 10px 16px 10px 15px;
+  height: 20px;
+  background-color: brown;*/
+  transition: box-shadow 0.2s, background-color 0.5s;
 }
 .menu_option:hover{     /*opción en el menú al pasar por encima el puntero del mouse*/
-    box-shadow: 3px 3px 3px darkgray;
-    background-color: darkred;
+/*  box-shadow: 0px 3px 3px darkgray;*/
+  margin: 1px;
+  background-color: #82c3a6;
 }
 #content_body{ /*Contenedor del cuerpo de la página*/
-    height: 300px;
-    background-color: azure;
+  height: 300px;
+  background-color: #82c3a6;
 }
