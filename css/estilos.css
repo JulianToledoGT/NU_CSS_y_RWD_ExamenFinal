@@ -4,10 +4,11 @@ footer{
   border-radius: 0px 0px 10px 10px;
   Color: white;
 }
-svg{
-  height: 100%;
+/*svg{
+  background-color: white;
+  width: 20%;
   margin: none;
-}
+}*/
 h1{
   margin: 5px 0px 0px 15px;
   color: white;
@@ -27,8 +28,11 @@ h1{
   width: 40%;
   float: left;
 }
-#main_image{
-  width: 100%;
+/*#main_image*/
+img{
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 .menu_option{    /*opción en el menú*/
   text-decoration:none;
@@ -37,18 +41,13 @@ h1{
   float: left;
   padding: 15px;
   width: 25%;
-/*  border-radius: 5px;
-  margin: 10px 16px 10px 15px;
-  height: 20px;
-  background-color: brown;*/
   transition: box-shadow 0.2s, background-color 0.5s;
 }
 .menu_option:hover{     /*opción en el menú al pasar por encima el puntero del mouse*/
-/*  box-shadow: 0px 3px 3px darkgray;*/
   margin: 1px;
   background-color: #82c3a6;
 }
-#content_body{ /*Contenedor del cuerpo de la página*/
-  height: 300px;
+#content_body01{ /*Contenedor del cuerpo de la página*/
+/*  height: 250px;*/
   background-color: #82c3a6;
 }
