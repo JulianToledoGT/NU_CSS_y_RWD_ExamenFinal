@@ -59,8 +59,10 @@ p{
   width: 100%;
 }
 #image_02{
+  border: 2px solid white;
   transition: transform 0.5s;
   transform: rotate(0deg);
+  box-shadow: 10px 10px 10px #82c3a6;
 /*
   -webkit-transform: rotate(0deg); // IE 9
   -moz-transform: rotate(0deg); // Firefox
