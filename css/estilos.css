@@ -1,40 +1,36 @@
-﻿/*Versión: 20190103002*/
+﻿/*Versión: 20190108001*/
 footer{
   background-color: #5b7989;
   border-radius: 0px 0px 10px 10px;
   Color: white;
 }
-/*svg{
-  background-color: white;
-  width: 20%;
-  margin: none;
-}*/
 h1{
   margin: 5px 0px 0px 15px;
   color: white;
   text-shadow: 2px 2px 2px #02010a;
 }
-#content_header{ /*Contenedor del encabezado*/
+#content_header{
   height: 50px;
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
 }
-#title{          /*Tirulo*/
+#title{
   margin: none;
   height: 50%;
   float: left;
 }
-#menu_bar{           /*Barra de menús*/
+#menu_bar{
   width: 40%;
-  float: left;
+  float: right;
 }
-/*#main_image*/
-img{
-  width: 50%;
-  display: block;
-  margin: auto;
+#main_image{
+  width: 60%;
+  margin: 10px 20%;
 }
-.menu_option{    /*opción en el menú*/
+.content_body01{
+  background-color: #82c3a6;
+}
+.menu_option{
   text-decoration:none;
   text-align: center;
   color: white;
@@ -43,11 +39,11 @@ img{
   width: 25%;
   transition: box-shadow 0.2s, background-color 0.5s;
 }
-.menu_option:hover{     /*opción en el menú al pasar por encima el puntero del mouse*/
+.menu_option:hover{
   margin: 1px;
   background-color: #82c3a6;
 }
-#content_body01{ /*Contenedor del cuerpo de la página*/
-/*  height: 250px;*/
-  background-color: #82c3a6;
+.image_02{
+  width: 40.6%;
+  margin: 10px 4.6%;
 }
